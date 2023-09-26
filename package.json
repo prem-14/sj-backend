@@ -1,0 +1,36 @@
+{
+  "name": "sj_api",
+  "version": "1.0.0",
+  "description": "SJ api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Premkumar A R",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.32.0",
+    "compression": "^1.7.4",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "cron": "^2.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.5.1",
+    "google-auth-library": "^8.4.0",
+    "helmet": "^5.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.5.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.8.0",
+    "pg": "^8.8.0",
+    "sib-api-v3-sdk": "^8.4.2",
+    "socket.io": "^4.5.1"
+  }
+}
